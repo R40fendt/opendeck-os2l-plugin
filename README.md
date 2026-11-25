@@ -1,2 +1,2 @@
-# opendeck-os2l-plugin
-OpenDeck Plugin for Open Sound to Light
+# OpenDeck OS2L-Plugin
+This plugin brings OS2L support to OpenDeck.

@@ -1,0 +1,11 @@
+[package]
+name = "opendeck-os2l-plugin"
+edition = "2024"
+
+[dependencies]
+openaction = "2.8"
+serde = {version="1.0", features=["derive"]}
+serde_json = "1"
+tokio = { version = "1.54", features = ["rt-multi-thread", "macros"] }
+log = "0.4"
+simplelog = "0.12"

@@ -1,0 +1,27 @@
+{
+	"Name": "OS2L",
+	"Author": "R40fendt",
+	"Version": "1.0.0",
+	"Category": "OS2L",
+	"OS": [{ "Platform": "linux" }],
+	"Icon": "icon",
+	"CodePaths": {
+		"x86_64-unknown-linux-gnu": "opendeck-os2l-plugin-x86_64-unknown-linux-gnu",
+		"aarch64-unknown-linux-gnu": "opendeck-os2l-plugin-aarch64-unknown-linux-gnu"
+	},
+	"CodePathLin": "opendeck-os2l-plugin-x86_64-unknown-linux-gnu",
+	"PropertyInspectorPath": "pi.html",
+	"Actions": [
+		{
+			"UUID": "de.ritzenbergen.os2l.action",
+			"Name": "OS2L Action",
+			"Tooltip": "OS2L",
+			"Controllers": ["Keypad", "Encoder"],
+			"States": [
+					{ "Image": "off", "Title": "Aus" },
+					{ "Image": "on",  "Title": "An" }
+				],
+				"DisableAutomaticStates": true
+		}
+	]
+}
